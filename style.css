@@ -67,8 +67,7 @@ nav {
   color: white;
   position: relative;
   overflow: hidden;
-  background: url("./images/Background.jpg");
-  object-fit: cover;
+  background: url("./images/Background.jpg") center/cover;
 }
 
 .hero::before {
