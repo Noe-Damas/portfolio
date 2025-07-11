@@ -70,6 +70,8 @@ nav {
   background: url("./images/Background.jpg") center/cover;
 }
 
+/* oui */
+
 .hero::before {
   content: "";
   position: absolute;
