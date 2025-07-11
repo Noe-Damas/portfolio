@@ -12,11 +12,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 // Form submission
-// document.querySelector("form").addEventListener("submit", function (e) {
-//   e.preventDefault();
-//   alert("Message envoyé ! Je vous rencontacterai très bientôt.");
-//   this.reset();
-// });
+document.querySelector("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  this.reset();
+});
 
 // Animate skill bars on scroll
 const observerOptions = {
