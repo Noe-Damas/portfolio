@@ -1,0 +1,14 @@
+Modfification site web
+
+- Remplacer "projets" par "formations" dans le header. #
+- Rajouter un "s" à Experience et formation (et ailleurs si besion). #
+- Mettre une image pour l'acceuil. #
+- Sous mon prénom à la page d'acceuil, modifier et mettre "Electrotechnicien . Automaticien". #
+- Rajouter une photo dans la bulle. #
+- Changer les dates pour les experience :Actemium --> Septembre/octobre 2021. Energom (Roumanie) --> mai/juin 2023. Trimet --> Novembre 2020. #
+- Dans la catégorie "formations" mettre la date de la licence pro DEA à la suite de "UGA IUT 1 · Distribution Électrique et Automatisme" #
+et pour le brevet d"Etat de moniteur de ski, changer "Formation sportive · Encadrement et enseignement" et mettre à la place "ENSA Chamonix" rajouter la date 2021 à la suite. #
+- Au même endroit inverser la categorie Moniteur de ski avec la categorie BTS Electrotechnique. # 
+- Catégorie "contact" alligner les informations à la ligne si possible. #
+- Rajouter mon linkedin #
+- Voir si l'espace "Envoyer moi un message" marche vraiment. 
