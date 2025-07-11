@@ -43,3 +43,12 @@ window.addEventListener("scroll", () => {
     header.style.background = "rgba(0, 0, 0, 0.9)";
   }
 });
+
+//Menu Burger
+const burger = document.querySelector(".burger");
+const nav = document.querySelector(".nav-links");
+
+burger.addEventListener("click", () => {
+  nav.classList.toggle("active"); // ouvre/ferme le menu
+  burger.classList.toggle("open"); // transforme le burger en croix
+});
