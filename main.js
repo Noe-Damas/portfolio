@@ -11,12 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Form submission
-document.querySelector("form").addEventListener("submit", function (e) {
-  e.preventDefault();
-  this.reset();
-});
-
 // Animate skill bars on scroll
 const observerOptions = {
   threshold: 0.5,
