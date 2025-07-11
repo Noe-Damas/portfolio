@@ -46,9 +46,19 @@ window.addEventListener("scroll", () => {
 
 //Menu Burger
 const burger = document.querySelector(".burger");
-const nav = document.querySelector(".nav-links");
+const navLinks = document.querySelector(".nav-links");
+const navItems = document.querySelectorAll(".nav-links a");
 
+// Ouvre/ferme le menu burger
 burger.addEventListener("click", () => {
-  nav.classList.toggle("active"); // ouvre/ferme le menu
-  burger.classList.toggle("open"); // transforme le burger en croix
+  navLinks.classList.toggle("active");
+  burger.classList.toggle("open");
+});
+
+// Ferme le menu quand on clique sur un lien
+navItems.forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+    burger.classList.remove("open");
+  });
 });
